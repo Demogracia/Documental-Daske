@@ -1,0 +1,186 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daske Gaitán - Sitio Oficial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">NORU<span>PRODUCCIONES</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">Quién Es</a></li>
+        <li><a href="#documentary">Documental</a></li>
+        <li><a href="#podcast">Podcast</a></li>
+        <li><a href="#productora">Productora</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / Inicio -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>DASKE GAITÁN</h1>
+      <p>Artista | Creador | Visionario</p>
+    </div>
+  </header>
+
+  <!-- Sección: Quién Es -->
+  <section id="about" class="section container">
+    <h2 class="section-title">Quién Es</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Daske Gaitán es un artista caracterizado por un estilo lírico callejero, versátil y una entrega visual de alto impacto. Representando el movimiento urbano con autenticidad, ha logrado conectar de forma profunda con una audiencia que busca música real, historias directas y una propuesta estética innovadora.</p>
+        <p>A lo largo de su carrera, ha explorado diversas facetas creativas que van desde la composición musical hasta la producción audiovisual y la creación de contenido conceptual.</p>
+      </div>
+      <div class="about-image">
+        <img src="fotodaske.webp" alt="Daske Gaitán">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Documental -->
+  <section id="documentary" class="section bg-darker">
+    <div class="container">
+      <h2 class="section-title">Documental</h2>
+      <div class="doc-content">
+        <div class="doc-text">
+          <h3>A MI MODO: 12 AÑOS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+        <div class="doc-cover-wrapper">
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="doc-link">
+            <div class="doc-cover">
+              <img src="fotodocumental.webp" alt="Portada del documental" class="doc-cover-img">
+              <div class="play-overlay">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <span class="cover-placeholder-text">Ver en YouTube</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Podcast -->
+  <section id="podcast" class="section container">
+    <h2 class="section-title">Podcast</h2>
+    <div class="podcast-layout">
+      <!-- Izquierda: Imagen del Capítulo -->
+      <div class="podcast-left">
+        <div class="podcast-cover-container">
+          <img id="podcast-cover" src="" alt="Portada del Capítulo">
+        </div>
+      </div>
+
+      <!-- Centro: Controles / Botones -->
+      <div class="podcast-center">
+        <div class="episode-buttons">
+          <button class="ep-btn active" data-ep="0">Capítulo 1</button>
+          <button class="ep-btn" data-ep="1">Capítulo 2</button>
+          <button class="ep-btn" data-ep="2">Capítulo 3</button>
+        </div>
+      </div>
+
+      <!-- Derecha: Información del Capítulo -->
+      <div class="podcast-right">
+        <div class="podcast-info">
+          <h3 id="ep-title">Cargando título...</h3>
+          <p id="ep-desc">Cargando descripción...</p>
+          <a id="ep-link" href="#" target="_blank" rel="noopener noreferrer" class="podcast-listen-btn">
+            <i class="fa-brands fa-youtube"></i> Escuchar Capítulo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección: Productora -->
+  <section id="productora" class="section bg-darker">
+    <div class="container">
+      <!-- Cabecera de la productora con nombre y redes -->
+      <div class="productora-header">
+        <h2 class="productora-name">PRODUCTORA CREATIVA</h2>
+        <div class="productora-socials">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-circle"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube" class="social-circle"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://spotify.com" target="_blank" aria-label="Spotify" class="social-circle"><i class="fa-brands fa-spotify"></i></a>
+        </div>
+      </div>
+
+      <p class="productora-desc">
+        Somos el equipo multidisciplinario a cargo del desarrollo conceptual, visual y ejecutivo de proyectos universitarios. Especializados en dirección y producción audiovisual, diseño conceptual y estrategia digital.
+      </p>
+
+      <!-- Miembros de la Productora (4 arriba, 3 abajo) -->
+      <div class="team-grid">
+        <!-- Miembro 1 -->
+        <div class="team-card">
+          <div class="avatar-circle">RM</div>
+          <h4 class="member-name">Renzo Martinez</h4>
+          <span class="member-role">Dirección general</span>
+          <p class="member-desc">Líder creativo encargado de la visión general del documental, supervisando la narrativa, el enfoque y la ejecución del proyecto.</p>
+        </div>
+        <!-- Miembro 2 -->
+        <div class="team-card">
+          <div class="avatar-circle">KP</div>
+          <h4 class="member-name">Karla Perez</h4>
+          <span class="member-role">Producción y dirección de fotografía</span>
+          <p class="member-desc">Responsable de la organización y coordinación de la producción, así como de definir la propuesta visual, composición y estética cinematográfica del documental.</p>
+        </div>
+        <!-- Miembro 3 -->
+        <div class="team-card">
+          <div class="avatar-circle">RP</div>
+          <h4 class="member-name">Rodrigo Pillihuamán</h4>
+          <span class="member-role">Camarógrafo</span>
+          <p class="member-desc">Encargado de realizar las grabaciones, manejar los equipos de cámara y capturar los planos necesarios para construir la narrativa audiovisual.</p>
+        </div>
+        <!-- Miembro 4 -->
+        <div class="team-card">
+          <div class="avatar-circle">DM</div>
+          <h4 class="member-name">Dayana Moran</h4>
+          <span class="member-role">Dirección de sonido y desarrollo web</span>
+          <p class="member-desc">Responsable de la captura y supervisión del sonido, garantizando la calidad de las entrevistas, voces y ambientes sonoros.</p>
+        </div>
+        <!-- Miembro 5 -->
+        <div class="team-card">
+          <div class="avatar-circle">FB</div>
+          <h4 class="member-name">Fabiana Becerra</h4>
+          <span class="member-role">Iluminación</span>
+          <p class="member-desc">Encargada de diseñar y controlar la iluminación de cada escena para crear ambientes adecuados y mantener la calidad visual del documental.</p>
+        </div>
+        <!-- Miembro 6 -->
+        <div class="team-card">
+          <div class="avatar-circle">LE</div>
+          <h4 class="member-name">Luis Espinoza</h4>
+          <span class="member-role">Edicción general</span>
+          <p class="member-desc">Responsable del montaje audiovisual, organizando el material grabado y dando forma al ritmo, continuidad y narrativa final del documental.</p>
+        </div>
+        <!-- Miembro 7 -->
+        <div class="team-card">
+          <div class="avatar-circle">EL</div>
+          <h4 class="member-name">Estrella Loayza</h4>
+          <span class="member-role">Community manager</span>
+          <p class="member-desc">Encargada de gestionar la comunicación digital del proyecto, desarrollar contenido para redes sociales y promocionar el documental ante la audiencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Daske Gaitán. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
